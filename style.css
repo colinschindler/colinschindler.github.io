@@ -1,0 +1,75 @@
+#page-wrap {
+     max-width: 1100px;
+     margin: 0 auto;
+     padding: 20px 20px 0;
+     border-style: ridge;
+     border-width: 2px;
+     background-color: white;
+}
+
+#header {
+  position: relative;
+}
+
+#logo-container {
+  /*border: solid;*/
+  height: 171px;
+  text-align: center;
+}
+
+.logo {
+  line-height: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 171px;
+  max-width: 100%;
+
+}
+
+#latest-image {
+	display: block;
+  width: 100%;
+}
+
+.projects {
+  display: inline-block;
+}
+
+#project1-image, #project2-image, #project3-image {
+  width: 200px;
+}
+
+body {
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+	color: #0f6930;
+	font-size: xx-large;
+}
+
+small {
+	color: red;
+	font-size: smaller;
+	padding-left: 40px;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;
+}

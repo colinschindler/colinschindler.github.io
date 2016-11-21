@@ -1,31 +1,24 @@
 # colinschindler
-This is for a personal website colinschindler.com
+Object: Display photography in an interesting, dynamic way that encourages users to occasionally check out what is new. 
 
-Navbar:
+Site Structure:
 
-/index
-  Photo of ->        [Sprinter]
-             |       |      |        |
-           BIKES  CAMERA  GUITAR  BACKPACKS
+Header
+Colin [picture] Schindler
+<possibly a descriptive line>
 
-/photography
-  Portfolio
-  Prints for sale
-  Projects
+H2 -> Latest
+Latest interesting photo from any genre/project that enlarges when clicked and lists print options
 
-/blog
+H2 -> Projects
+- Landscapes
+  - South Dakota
+  - South Carolina
+  - South America?
+  - Others
+- American Dreams
+- Base Camp Van (link to basecampvan.com)
+...All Projects
 
-/cycling
-  Mini Trips
-  Bike/Owner Photo Story Project
-  Gear Recs (Cool Tools Style)
-
-/backpacking
-  Mini Trips
-  Hiker Photo Story Project?
-  Gear Recs (Cool Tools Style?)
-
-/Music -> meshellwolf.com
-
-
-
+Footer
+-About Me -Portfolio -Contact
