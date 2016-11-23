@@ -12,18 +12,38 @@
 }
 
 #logo-container {
-  /*border: solid;*/
-  height: 171px;
-  text-align: center;
+  font-size: 0;
+}
+
+a.logo {
+  display: inline;
+}
+
+#header a:link, a:visited {
+  text-decoration: none;
+  color: #0f6930;
+}
+
+#logo-container #colinschindler {
+  display:inline-block;
+  font-size: 90px;
+  text-decoration: none;
+  margin-bottom: -10px;
+  margin-left: 15px;
+  padding-bottom: -10px;
 }
 
 .logo {
+  display:inline;
   line-height: 0;
-  display: block;
-  margin: 0 auto;
-  max-height: 171px;
   max-width: 100%;
+  margin-bottom: 0px;
+}
 
+#header small {
+  display: block;
+  font-size: 30px;
+  margin-top: -10px;
 }
 
 #latest-image {
@@ -31,12 +51,63 @@
   width: 100%;
 }
 
+#latest-wrap p {
+  font-size: x-large;
+}
+
 .projects {
   display: inline-block;
 }
 
+#projects small a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#projects small a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+#projects small a:link {
+  text-decoration:none;
+  color:red;
+}
+
+#projects small a:hover {
+  background-color: red;
+  color:black;
+  font-size: 30px;
+}
+
+.projects a:link{
+text-decoration: none;
+color: cornflowerblue;
+}
+
+.projects a:visited {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.projects a:hover h2 {
+  background-color: red;
+  color: black;
+  font-size: 26px;
+}
+
 #project1-image, #project2-image, #project3-image {
   width: 200px;
+}
+
+#project1-image, #project2-image, #project1 h2, #project2 h2 {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 570px) {
+    #project1-image, #project2-image, #project1 h2, #project2 h2 {
+  margin-right: 0px;
+}
 }
 
 body {
