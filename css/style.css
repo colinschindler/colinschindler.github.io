@@ -7,7 +7,7 @@
      background-color: white;
 }
 
-#header {
+#masthead {
   position: relative;
 }
 
@@ -19,7 +19,7 @@ a.logo {
   display: inline;
 }
 
-#header a:link, a:visited {
+#masthead a:link, a:visited {
   text-decoration: none;
   color: #0f6930;
 }
@@ -40,10 +40,15 @@ a.logo {
   margin-bottom: 0px;
 }
 
-#header small {
+#masthead small {
   display: block;
   font-size: 30px;
   margin-top: -10px;
+}
+
+#bloglist .smalls{
+  display: block;
+  font-size: 20px;
 }
 
 #latest-image {
@@ -59,28 +64,28 @@ a.logo {
   display: inline-block;
 }
 
-#projects small a {
+.smalls a {
   padding-right: 10px;
   padding-left: 10px;
 }
 
-#projects small a:visited {
+.smalls a:visited {
   text-decoration: none;
   color: red;
 }
 
-#projects small a:link {
+.smalls a:link {
   text-decoration:none;
   color:red;
 }
 
-#projects small a:hover {
+.smalls a:hover {
   background-color: red;
   color:black;
   font-size: 30px;
 }
 
-.projects a:link{
+.projects a:link {
 text-decoration: none;
 color: cornflowerblue;
 }
@@ -97,7 +102,7 @@ color: cornflowerblue;
 }
 
 #project1-image, #project2-image, #project3-image {
-  width: 200px;
+  height: 150px;
 }
 
 #project1-image, #project2-image, #project1 h2, #project2 h2 {
@@ -110,8 +115,62 @@ color: cornflowerblue;
 }
 }
 
+.posts {
+  padding-left: 40px;
+}
+
+.posts a:link{
+text-decoration: none;
+color: cornflowerblue;
+}
+
+.posts a:visited {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.posts a:hover h2 {
+  background-color: red;
+  color: black;
+  font-size: 26px;
+}
+
+.picDescript {
+  text-align: center;
+  font-style: italic;
+  color: deepskyblue;
+}
+
+#social {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#social img {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 40px;
+}
+
+#social a:hover img {
+  background-color: red;
+  color: black;
+  width: 50px;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
 	font-family: 'Indie Flower', cursive;
+}
+
+p {
+  font-size: 20px;
 }
 
 h1 {
@@ -125,6 +184,12 @@ small {
 	padding-left: 40px;
 }
 
+.postdate {
+  display: block;
+  color: grey;
+  padding: 0;
+}
+
 ul {
   list-style: none;
   text-align: center;
@@ -136,11 +201,4 @@ ul li {
 
 hr {
   margin-top: 20px;
-}
-
-footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 25px;
-  font-family: 'Orbitron', sans-serif;
 }
