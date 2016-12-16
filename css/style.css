@@ -46,6 +46,25 @@ a.logo {
   margin-top: -10px;
 }
 
+#store img {
+  width: 100%;
+}
+
+#store p {
+  text-align: center;
+}
+
+.store-images {
+  border-style: outset;
+  padding: 10px;
+}
+
+.store-tables {
+  width: 100%;
+  border-style: groove;
+  border-width: thin;
+}
+
 #bloglist .smalls{
   display: block;
   font-size: 20px;
