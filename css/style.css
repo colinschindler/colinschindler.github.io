@@ -46,7 +46,7 @@ a.logo {
   margin-top: -10px;
 }
 
-.fb-share-button {
+.fb-share-button a{
   text-align: right;
 }
 
