@@ -46,8 +46,8 @@ a.logo {
   margin-top: -10px;
 }
 
-.fb-xfbml-parse-ignore a {
-  text-align: right;
+.fb-share-button a {
+  text-align: center;
 }
 
 #store img {
