@@ -46,6 +46,10 @@ a.logo {
   margin-top: -10px;
 }
 
+.fb-share-button {
+  text-align: right;
+}
+
 #store img {
   width: 100%;
 }
