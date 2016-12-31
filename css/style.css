@@ -201,14 +201,6 @@ color: cornflowerblue;
   font-size: 23px;
 }
 
-.outer-fb-comments {
-  width: 100%;
-}
-
-.fb-comments {
-  margin: 0 auto;
-}
-
 iframe {
   display: block;
   margin-left: auto;
