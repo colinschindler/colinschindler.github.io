@@ -201,8 +201,8 @@ color: cornflowerblue;
   font-size: 23px;
 }
 
-.fb-comment {
-  text-align: center;
+.fb-comments {
+  margin: 0 auto;
 }
 
 iframe {
