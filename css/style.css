@@ -201,7 +201,11 @@ color: cornflowerblue;
   font-size: 23px;
 }
 
-.fb-comment {
+.outer-fb-comments {
+  width: 100%;
+}
+
+.fb-comments {
   margin: 0 auto;
 }
 
