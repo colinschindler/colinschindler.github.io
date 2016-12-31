@@ -201,6 +201,10 @@ color: cornflowerblue;
   font-size: 23px;
 }
 
+.fb-comments {
+  text-align: center;
+}
+
 iframe {
   display: block;
   margin-left: auto;
