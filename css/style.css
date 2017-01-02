@@ -283,6 +283,10 @@ color: cornflowerblue;
 }
 /*Blog & Posts End*/
 
+.fb-like {
+  margin-top: 20px;
+}
+
 /*Social Media in Footer*/
 #social {
   text-align: center;
