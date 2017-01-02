@@ -283,12 +283,6 @@ color: cornflowerblue;
 }
 /*Blog & Posts End*/
 
-/*Facebook buttons*/
-#above-fb-buttons {
-  margin-bottom: 20px;  
-}
-/*End Facebook buttons*/
-
 /*Social Media in Footer*/
 #social {
   text-align: center;
@@ -378,8 +372,4 @@ ul {
 
 ul li {
   display: inline;
-}
-
-hr {
-  margin-top: 20px;
 }
