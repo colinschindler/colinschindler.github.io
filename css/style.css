@@ -1,3 +1,10 @@
+/*clear default margins and paddings*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Wraps everything*/
 #page-wrap {
      max-width: 1100px;
      margin: 0 auto;
@@ -5,6 +12,35 @@
      border-style: ridge;
      border-width: 2px;
      background-color: white;
+}
+
+/*Header*/
+@media screen and (max-width: 746px) {
+  #colinschindler {
+  margin: 0 auto;
+  }
+
+  .logo img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #masthead a {
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #logo-container {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+
+  #logo-container #colinschindler {
+    margin: 0;
+  }
 }
 
 #masthead {
@@ -33,6 +69,12 @@ a.logo {
   padding-bottom: -10px;
 }
 
+@media screen and (max-width: 405px) {
+  #logo-container #colinschindler {
+    font-size: 50px;
+  }
+}
+
 .logo {
   display:inline;
   line-height: 0;
@@ -45,7 +87,13 @@ a.logo {
   font-size: 30px;
   margin-top: -10px;
 }
+/*Header End*/
 
+#content {
+  margin: 5px;
+}
+
+/* Store */
 #store img {
   width: 100%;
 }
@@ -64,10 +112,12 @@ a.logo {
   border-style: groove;
   border-width: thin;
 }
+/* End Store */
 
-#bloglist .smalls{
-  display: block;
-  font-size: 20px;
+/* latest image */
+#latest h1, p {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #latest-image {
@@ -79,29 +129,16 @@ a.logo {
   font-size: x-large;
 }
 
+/*End latest image*/
+
+/*Projects section on Homepage */
 .projects {
   display: inline-block;
 }
 
-.smalls a {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.smalls a:visited {
-  text-decoration: none;
-  color: red;
-}
-
-.smalls a:link {
-  text-decoration:none;
-  color:red;
-}
-
-.smalls a:hover {
-  background-color: red;
-  color:black;
-  font-size: 30px;
+#projects h1, p, ul {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .projects a:link {
@@ -133,6 +170,53 @@ color: cornflowerblue;
   margin-right: 0px;
 }
 }
+/*Projects end*/
+
+/* Last three Blog Posts on Homepage */
+
+#bloglist .smalls{
+  display: block;
+  font-size: 20px;
+}
+
+#blog h1, h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/*End Blog list on Homepage*/
+
+.smalls a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.smalls a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+.smalls a:link {
+  text-decoration:none;
+  color:red;
+}
+
+.smalls a:hover {
+  background-color: red;
+  color:black;
+  font-size: 30px;
+}
+
+/*Blog & Posts*/
+#bloglist {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#bloglist small {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .posts {
   padding-left: 40px;
@@ -155,6 +239,7 @@ color: cornflowerblue;
 }
 
 .picDescript {
+  margin: 20px;
   text-align: center;
   font-style: italic;
   color: deepskyblue;
@@ -165,22 +250,9 @@ color: cornflowerblue;
   margin: 0 auto;
 }
 
-#social {
-  text-align: center;
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-
-#social img {
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 40px;
-}
-
-#social a:hover img {
-  background-color: red;
-  color: black;
-  width: 50px;
+.blogPost p, h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .blogNav {
@@ -200,7 +272,59 @@ color: cornflowerblue;
   background-color: black;
   font-size: 23px;
 }
+/*Blog & Posts End*/
 
+/*Social Media in Footer*/
+#social {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#social img {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 40px;
+}
+
+#social a:hover img {
+  background-color: red;
+  color: black;
+  width: 50px;
+}
+/*End Social Media in Footer*/
+
+/* American Dreams*/
+.dream-wrap {
+  width: 100%;
+  margin: 5px;
+}
+
+.dream-image {
+max-width: 440px;
+margin: 0 auto;
+}
+
+.dream-image-big {
+  width: 100%;
+}
+
+.dream-image img {
+  width: 100%;
+}
+
+.dream-text {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.dream-text p {
+  width: 100%;
+  text-align: center;
+}
+/* American Dreams End*/
+
+/*Google iFrames*/
 iframe {
   display: block;
   margin-left: auto;
