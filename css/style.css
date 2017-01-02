@@ -265,7 +265,16 @@ color: cornflowerblue;
   text-decoration: none;
   font-weight: bolder;
   color: red;
-  margin: 15px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 479px) {
+  .blogNav a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
 .blogNav a:hover {
