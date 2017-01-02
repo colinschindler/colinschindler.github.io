@@ -283,9 +283,11 @@ color: cornflowerblue;
 }
 /*Blog & Posts End*/
 
-.fb-like {
-  margin-top: 20px;
+/*Facebook buttons*/
+.fb-buttons {
+  padding-top: 20px;
 }
+/*End Facebook buttons*/
 
 /*Social Media in Footer*/
 #social {
