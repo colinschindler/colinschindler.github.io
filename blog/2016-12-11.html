@@ -7,7 +7,7 @@
   <title>Hiking Arthur's Rock | Colin Schindler</title>
   <meta name="description" content="The Blog of Colin Schindler.">
   <meta property="og:title" content="Hiking Arthur's Rock 
-| Colin Schindler">
+| Colin's Blog">
   <meta property="og:type" content="blog">
   <meta property="og:url" content="http://colinschindler.com/blog/2016-12-11.html">
   <meta property="og:image" content="http://colinschindler.com/images/og/SprinterSunset.jpg">
@@ -29,6 +29,24 @@
   </script>
   </head>
   <body>
+    <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '234066190368430',
+        xfbml      : true,
+        version    : 'v2.8'
+      });
+      FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
