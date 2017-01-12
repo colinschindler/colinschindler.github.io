@@ -112,6 +112,48 @@ a.logo {
   border-style: groove;
   border-width: thin;
 }
+
+.store-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0f6930;
+  border: none;
+  color: red;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-size: 29px;
+  font-weight: bolder;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.store-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.store-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.store-button:hover span {
+  padding-right: 25px;
+}
+
+.store-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 /* End Store */
 
 /* latest image */
