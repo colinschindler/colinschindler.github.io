@@ -115,16 +115,16 @@ a.logo {
 
 .store-button {
   display: inline-block;
-  border-radius: 4px;
-  background-color: #0f6930;
+  border-radius: 10px;
+  background-color: red;
   border: none;
-  color: red;
+  color: #0f6930;
   font-family: 'Indie Flower', cursive;
   text-align: center;
   font-size: 29px;
   font-weight: bolder;
-  padding: 20px;
   width: 200px;
+  height: 55px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 15px;
