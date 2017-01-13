@@ -89,9 +89,51 @@ a.logo {
 }
 /*Header End*/
 
-#content {
-  margin: 5px;
+/*Prints*/
+.prints-images {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
+
+.print-info img {
+  width: 100%;
+}
+
+.print-info ul {
+  margin-left: 25px;
+  font-size: 25px;
+}
+
+.print-info h2 {
+  color: #0f6930;
+}
+
+.print-info .smalls {
+  font-size: 30px;
+  padding: 0px;
+}
+
+.bigs {
+  font-size: 30px;
+  padding: 0px;
+}
+
+.prints-albums .smalls {
+  padding: 0;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.album-image {
+  border-style: outset;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*Prints End*/
 
 /* Store */
 #store img {
@@ -156,6 +198,10 @@ a.logo {
 }
 /* End Store */
 
+.smalls {
+  padding-left: 40px;
+}
+
 /* latest image */
 #latest h1, p {
   margin-top: 25px;
@@ -181,6 +227,15 @@ a.logo {
 #projects h1, p, ul {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+#projects ul {
+  list-style: none;
+  text-align: center;
+}
+
+#projects ul li {
+  display: inline;
 }
 
 .projects a:link {
@@ -398,20 +453,10 @@ h1 {
 small {
 	color: red;
 	font-size: smaller;
-	padding-left: 40px;
 }
 
 .postdate {
   display: block;
   color: grey;
   padding: 0;
-}
-
-ul {
-  list-style: none;
-  text-align: center;
-}
-
-ul li {
-  display: inline;
 }
