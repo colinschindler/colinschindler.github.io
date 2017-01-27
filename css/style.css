@@ -305,6 +305,7 @@ color: cornflowerblue;
 }
 
 /*Blog & Posts*/
+
 #bloglist {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -377,6 +378,46 @@ color: cornflowerblue;
 .blogNav a:hover {
   background-color: black;
   font-size: 23px;
+}
+
+.blog-print {
+  border-style: outset;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-print .new-print {
+  text-align: center;
+  color: red;
+  font-size: xx-large;
+}
+
+.blog-prints-images {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.blog-smalls a {
+  font-size: 28px;
+}
+
+.blog-smalls a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+.blog-smalls a:link {
+  text-decoration:none;
+  color:red;
+}
+
+.blog-smalls a:hover {
+  background-color: red;
+  color:black;
+  font-size: 30px;
 }
 /*Blog & Posts End*/
 
