@@ -388,6 +388,10 @@ color: cornflowerblue;
   margin-bottom: 20px;
 }
 
+.blogPost .blue-p {
+  background-color: skyblue;
+}
+
 .blogNav {
   margin-top: 40px;
   text-align: center;
@@ -454,7 +458,123 @@ color: cornflowerblue;
   color:black;
   font-size: 30px;
 }
-/*Blog & Posts End*/
+
+/*Specific blog posts*/
+
+/*From 2/14/17 boy girl beauty world*/
+.bgbw section {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgbw p,img,a {
+  display: inline;
+}
+
+.bgbw img {
+  height: 250px;
+  margin-left: 5%;
+  border: solid;
+  border-width: 15px;
+  border-color: skyblue;
+}
+
+.bgbw p {
+  background-color: skyblue;
+  margin-right: 5px;
+}
+
+.bgbw-wrap {
+  position: relative;
+  max-width: 1100px;
+}
+
+.main-img {
+  position: relative;
+  width: 100%;
+}
+
+.bgbw-icon {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  margin-right: 10px;
+  width: 20%;
+}
+
+.bgbw-icon img {
+  width: 100%;
+  border: ridge;
+  border-width: 2px;
+  border-color: skyblue;
+}
+
+.bgbw-icon-2 {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  margin-left: 10px;
+  width: 20%;
+}
+
+.bgbw-icon-2 img {
+  width: 100%;
+}
+
+.bgbw-icon-3 {
+  position: absolute;
+  top: -10px;
+  left: 58%;
+  margin-left: 10px;
+  width: 20%;
+}
+
+.bgbw-icon-3 img {
+  width: 100%;
+}
+
+.bgbw-icon-4 {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  margin-right: 10px;
+  width: 15%;
+}
+
+.bgbw-icon-4 img {
+  width: 100%;
+}
+
+.bgbw-icon-5 {
+  position: absolute;
+  bottom: 0px;
+  right: 10;
+  margin-right: 10px;
+  width: 15%;
+}
+
+.bgbw-icon-5 img {
+  width: 100%;
+}
+
+.bgbw-icon-6 {
+  position: absolute;
+  top: -10px;
+  right: 60%;
+  margin-left: 10px;
+  width: 20%;
+}
+
+.bgbw-icon-6 img {
+  width: 100%;
+}
+
+/*END bgbw*/
+
+/*END Blog & Posts*/
 
 /*Van*/
 .van-header img{
@@ -517,6 +637,97 @@ color: cornflowerblue;
 }
 
 /*END Van*/
+
+/*Code*/
+#code-page-wrap{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 20px 0;
+  border-style: ridge;
+  border-width: 2px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+}
+
+.code-header img{
+  width: 100%
+}
+
+.code-nav li {
+  display: inline;
+}
+
+.code-nav {
+  width: 100%;
+}
+
+.code-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.code-nav a {
+  padding: 0.5rem 0.75rem;
+  font-size: 1.4rem;
+  max-width: 140px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  color: red;
+}
+
+.code-nav-home a:hover {
+  font-size: 2rem;
+  color: black;
+  background-color: red;
+}
+
+.code-nav-van a {
+  color: mediumspringgreen;
+}
+
+.code-nav-van a:hover {
+  font-size: 2rem;
+  color: black;
+  background-color: mediumspringgreen;
+}
+
+.code-nav-blog a {
+  color: darkorange;
+}
+
+.code-nav-blog a:hover {
+  font-size: 2rem;
+  color: black;
+  background-color: darkorange;
+}
+
+.code-nav-prints a {
+  color: deepskyblue;
+}
+
+.code-nav-prints a:hover {
+  font-size: 1.5rem;
+  color: black;
+  background-color: deepskyblue;
+}
+
+.code-nav-meshell a {
+  color: darkviolet;
+}
+
+.code-nav-meshell a:hover {
+  font-size: 1.3rem;
+  color: black;
+  background-color: darkviolet;
+}
+
+/*END Code*/
 
 /*Social Media in Footer*/
 #social {
