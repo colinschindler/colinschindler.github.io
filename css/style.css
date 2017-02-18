@@ -200,6 +200,7 @@ a.logo {
   padding-left: 40px;
 }
 
+/*HOMEPAGE*/
 /* latest image */
 #latest h1, p {
   margin-top: 25px;
@@ -293,6 +294,7 @@ color: cornflowerblue;
 }
 
 .wakeup-wrap {
+  position: relative;
   margin:5px;
   text-align: center;
   width: 280px;
@@ -305,7 +307,37 @@ color: cornflowerblue;
   width: 100%;
 }
 
+/*Adding price to corner of album art*/
+.wakeup-img {
+  position: relative;
+}
+
+.wakeup-price p {
+  font-size: 80px;
+  color: red;
+
+  /*safari*/
+  -webkit-transform: rotate(-25deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-25deg);
+
+  /* IE */
+  -ms-transform: rotate(-25deg);
+
+  /* Opera */
+  -o-transform: rotate(-25deg);
+}
+
+.wakeup-price {
+  position: absolute;
+  margin-top: -25px;
+  top: 0;
+  left: 3%;
+}
+
 /*END MeShell Wolf on Homepage*/
+/*END HOMEPAGE*/
 
 .smalls a {
   padding-right: 10px;
