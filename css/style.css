@@ -491,6 +491,66 @@ color: cornflowerblue;
   font-size: 30px;
 }
 
+/*Previous Trips*/
+.previousContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.trip {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 25px;
+}
+
+.tripImg {
+  width: 300px;
+  height: 300px;
+}
+
+.tripImg img {
+  position: absolute;
+  top: 0;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.tripDate {
+  position: absolute;
+  width: 300px;
+  top: 0;
+  left: 0;
+  background-color: rgba(19, 71, 31, 0.6);
+  border-radius: 23px;
+  text-align: center;
+  z-index: 1;
+}
+
+.tripCaption {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(19, 71, 31, 0.6);
+  border-radius: 23px;
+  text-align: center;
+  z-index: 1;
+}
+
+.trip p {
+  display: inline;
+  top: 0;
+  font-size: 30px;
+  color: red;
+}
+
+img:hover {
+  z-index: 0;
+}
+
 /*Specific blog posts*/
 
 /*From 2/14/17 boy girl beauty world*/
