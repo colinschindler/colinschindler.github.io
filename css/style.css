@@ -15,33 +15,7 @@
 }
 
 /*Header*/
-@media screen and (max-width: 746px) {
-  #colinschindler {
-  margin: 0 auto;
-  }
 
-  .logo img {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  #masthead a {
-    display:block;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  #logo-container {
-    margin: 0;
-    display: block;
-    text-align: center;
-  }
-
-  #logo-container #colinschindler {
-    margin: 0;
-  }
-}
 
 #masthead {
   position: relative;
@@ -69,9 +43,56 @@ a.logo {
   padding-bottom: -10px;
 }
 
+#motto-container {
+  display:flex;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 746px) {
+  #colinschindler {
+  margin: 0 auto;
+  }
+
+  .logo img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #masthead a {
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #logo-container {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+
+  #logo-container #colinschindler {
+    margin: 0;
+  }
+  
+  #motto-container {
+    display: block;
+    justify-content: center;
+  }
+  
+  #motto-container div {
+    margin:10px 0 10px 0;
+  }
+}
+
 @media screen and (max-width: 405px) {
   #logo-container #colinschindler {
     font-size: 50px;
+  }
+  
+  #motto-container div {
+    margin-top:10px;
   }
 }
 
