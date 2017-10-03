@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background-color:rgb(2,73,89);
+}
+
 /*Wraps everything*/
 #page-wrap {
      max-width: 1100px;
@@ -11,18 +15,15 @@
      padding: 20px 20px 0;
      border-style: ridge;
      border-width: 2px;
-     background-color: white;
+     background-color: rgb(9,33,64);
 }
 
 /*Header*/
-
-
 #masthead {
   position: relative;
 }
-
-#logo-container {
-  font-size: 0;
+.logo {
+  border-radius:30%;
 }
 
 a.logo {
@@ -31,7 +32,7 @@ a.logo {
 
 #masthead a:link, a:visited {
   text-decoration: none;
-  color: #0f6930;
+  color: white;
 }
 
 #logo-container #colinschindler {
@@ -44,6 +45,7 @@ a.logo {
 }
 
 #motto-container {
+  margin-bottom:10px;
   display:flex;
   flex-wrap: no-wrap;
   justify-content: space-between;
@@ -127,7 +129,7 @@ a.logo {
 }
 
 .print-info h2 {
-  color: #0f6930;
+  color: white;
 }
 
 .print-info .smalls {
@@ -156,8 +158,14 @@ a.logo {
 .paypal-button {
 	margin:0 auto;
 	text-align:center;
+  padding:0 10px 0 10px;
 	width:150px;
-	height:150px;
+	height:115px;
+  font-size:x-large;
+  color:white;
+  background-color:red;
+  border:solid white 1px;;
+  border-radius:25px;
 }
 /*End Prints*/
 
@@ -242,6 +250,7 @@ a.logo {
 
 #latest-wrap p {
   font-size: x-large;
+  color:rgb(242,199,119);
 }
 
 /*End latest image*/
@@ -267,18 +276,19 @@ a.logo {
 
 .projects a:link {
 text-decoration: none;
-color: cornflowerblue;
+color: red;
 }
 
 .projects a:visited {
   text-decoration: none;
-  color: cornflowerblue;
+  color: red;
 }
 
 .projects a:hover h2 {
   background-color: red;
-  color: black;
+  color: white;
   font-size: 26px;
+  border-radius: 15px;
 }
 
 #project1-image, #project2-image, #project3-image {
@@ -306,6 +316,7 @@ color: cornflowerblue;
 #blog h1, h2 {
   margin-top: 25px;
   margin-bottom: 25px;
+  color:white;
 }
 
 /*End Blog list on Homepage*/
@@ -317,16 +328,33 @@ color: cornflowerblue;
   flex-wrap: wrap;
 }
 
+#meshell-social {
+  margin-bottom:15px;
+  padding:10px;
+  display:flex;
+  justify-content:space-around;
+  width:300px;
+  border:solid white 1px;
+  border-radius:25px;
+}
+
+#meshell-social i{
+  color:white;
+}
+
+#meshell-social i:hover {
+  color:red;
+}
+
 .spotify-player {
-  margin:5px;
+  margin:15px;
 }
 
 .wakeup-wrap {
   position: relative;
-  margin:5px;
+  margin:25px;
   text-align: center;
   width: 280px;
-  border-style: outset;
   padding: 5px;
 }
 
@@ -374,7 +402,7 @@ color: cornflowerblue;
 
 .smalls a:visited {
   text-decoration: none;
-  color: red;
+  color:red;
 }
 
 .smalls a:link {
@@ -383,13 +411,13 @@ color: cornflowerblue;
 }
 
 .smalls a:hover {
-  background-color: red;
-  color:black;
+  background-color:red;
+  color:white;
   font-size: 30px;
+  border-radius: 15px;
 }
 
 /*Blog & Posts*/
-
 .meshell {
   font-weight: bold;
   font-family: 'Josefin Slab', serif;
@@ -416,26 +444,20 @@ color: cornflowerblue;
 }
 
 .posts a:link{
-text-decoration: none;
-color: cornflowerblue;
+  text-decoration: none;
+  color: red;
 }
 
 .posts a:visited {
   text-decoration: none;
-  color: cornflowerblue;
+  color: red;
 }
 
 .posts a:hover h2 {
   background-color: red;
-  color: black;
+  color:white;
   font-size: 26px;
-}
-
-.picDescript {
-  margin: 20px;
-  text-align: center;
-  font-style: italic;
-  color: deepskyblue;
+  border-radius: 15px;
 }
 
 .blogPost img {
@@ -446,6 +468,17 @@ color: cornflowerblue;
 .blogPost p, h1 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.blogPost p {
+  color: rgb(242,199,119);
+}
+
+.picDescript {
+  margin: 20px;
+  text-align: center;
+  font-style: italic;
+  color: deepskyblue;
 }
 
 .blogPost .blue-p {
@@ -475,7 +508,8 @@ color: cornflowerblue;
 }
 
 .blogNav a:hover {
-  background-color: black;
+  color:white;
+  background-color: red;
   font-size: 23px;
 }
 
@@ -505,7 +539,7 @@ color: cornflowerblue;
 
 .blog-smalls a:visited {
   text-decoration: none;
-  color: red;
+  color:red;
 }
 
 .blog-smalls a:link {
@@ -514,9 +548,10 @@ color: cornflowerblue;
 }
 
 .blog-smalls a:hover {
-  background-color: red;
-  color:black;
+  background-color:red;
+  color:white;
   font-size: 30px;
+  border-radius: 15px;
 }
 
 /*Previous Trips*/
@@ -541,17 +576,18 @@ color: cornflowerblue;
 .tripImg img {
   position: absolute;
   top: 0;
-  border-radius: 20px;
+  border-radius: 26px;
   z-index: 2;
 }
 
 .tripDate {
   position: absolute;
   width: 300px;
+  height:50px;
   top: 0;
   left: 0;
-  background-color: rgba(19, 71, 31, 0.6);
-  border-radius: 23px;
+  background-color: rgba(2,73,89, 0.9);
+  border-radius: 24px;
   text-align: center;
   z-index: 1;
 }
@@ -559,18 +595,17 @@ color: cornflowerblue;
 .tripCaption {
   position: absolute;
   width: 300px;
-  height: 40px;
+  height: 50px;
   bottom: 0;
-  left: 0;
-  background-color: rgba(19, 71, 31, 0.6);
-  border-radius: 23px;
+  background-color: rgba(9,33,64, 0.85);
+  border-radius: 30px;
   text-align: center;
   z-index: 1;
 }
 
 .trip p {
   display: inline;
-  top: 0;
+  top:0;
   font-size: 30px;
   color: red;
 }
@@ -917,15 +952,16 @@ body {
 
 p {
   font-size: 20px;
+  color:rgb(242,199,119);
 }
 
 h1 {
-	color: #0f6930;
+	color: white;
 	font-size: xx-large;
 }
 
 small {
-	color: red;
+	color:red;
 	font-size: smaller;
 }
 
