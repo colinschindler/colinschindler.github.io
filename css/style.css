@@ -474,6 +474,10 @@ color: red;
   margin-bottom: 20px;
 }
 
+.blogPost a:link {
+  color:cornflowerblue;
+}
+
 .blogPost p {
   color: rgb(242,199,119);
 }
