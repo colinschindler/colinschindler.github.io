@@ -323,6 +323,14 @@ color: red;
   color:white;
 }
 
+#blog h2 {
+  color:red;
+}
+
+#blog h2:hover {
+  color:white;
+}
+
 /*End Blog list on Homepage*/
 
 /*MeShell Wolf on Homepage*/
