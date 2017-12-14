@@ -372,6 +372,7 @@ color: red;
   display:flex;
   justify-content:space-around;
   width:300px;
+  color:white;
   border:solid white 1px;
   border-radius:25px;
 }
@@ -380,7 +381,7 @@ color: red;
   color:white;
 }
 
-#meshell-social i:hover {
+#meshell-social a:hover {
   color:red;
 }
 
@@ -938,16 +939,21 @@ img:hover {
   margin-top: 15px;
 }
 
-#social img {
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 40px;
+#social a {
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
-#social a:hover img {
-  background-color: red;
-  color: black;
-  width: 50px;
+#social a:visited {
+  color:white
+}
+
+#social a:link {
+  color:white
+}
+
+#social a:hover {
+  color: red;
 }
 /*End Social Media in Footer*/
 
