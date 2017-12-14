@@ -171,6 +171,17 @@ a.logo {
   border:solid white 1px;;
   border-radius:25px;
 }
+
+/*white frame around Missouri River City at Night*/
+.frame {
+    margin:0 auto;
+    margin-bottom: 10px;
+    padding-top: 1px;
+    width:830px;
+    height:1230px;
+    background-color: white;
+    border-radius: 20px;
+}
 /*End Prints*/
 
 /* Store */
@@ -249,12 +260,27 @@ a.logo {
 
 #latest-image {
 	display: block;
-  width: 100%;
+  width: 550px;
 }
 
 #latest-wrap p {
   font-size: x-large;
+  text-align: center;
   color:rgb(242,199,119);
+}
+
+.latest-text {
+  margin:0 auto;
+  width:600px;
+}
+
+.latest-contrast-box {
+  margin:0 auto;
+  padding-top: 10px;
+  width:570px;
+  height:835px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 /*End latest image*/
