@@ -260,14 +260,13 @@ a.logo {
 
 #latest-image {
 	display: block;
-  width: 95%;
-  height: 98%;
+  width: 96%;
 }
 
 #latest-wrap p {
   font-size: x-large;
   text-align: center;
-  width:100%;
+  width:95%;
   color:rgb(242,199,119);
 }
 
@@ -277,17 +276,27 @@ a.logo {
 
 .latest-text {
   margin:0 auto;
-  width:100%;
+  width:45%;
 }
 
 .latest-contrast-box {
   margin:0 auto;
-  padding-top: 10px;
-  padding-bottom:10px;
-  width:100%;
+  padding-top:2%;
+  padding-bottom:2%;
+  width:50%;
   background-color: white;
   border-radius: 20px;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .latest-text {
+    width:100%;
+  }
+
+  .latest-contrast-box {
+    width:100%;
+  }
+  }
 /*End latest image*/
 
 /*Projects section on Homepage */
@@ -945,8 +954,8 @@ img:hover {
 }
 
 #social a {
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #social a:visited {
