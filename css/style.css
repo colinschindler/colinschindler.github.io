@@ -260,29 +260,34 @@ a.logo {
 
 #latest-image {
 	display: block;
-  width: 550px;
+  width: 95%;
+  height: 98%;
 }
 
 #latest-wrap p {
   font-size: x-large;
   text-align: center;
+  width:100%;
   color:rgb(242,199,119);
+}
+
+#latest-wrap {
+  width: 100%;
 }
 
 .latest-text {
   margin:0 auto;
-  width:600px;
+  width:100%;
 }
 
 .latest-contrast-box {
   margin:0 auto;
   padding-top: 10px;
-  width:570px;
-  height:835px;
+  padding-bottom:10px;
+  width:100%;
   background-color: white;
   border-radius: 20px;
 }
-
 /*End latest image*/
 
 /*Projects section on Homepage */
