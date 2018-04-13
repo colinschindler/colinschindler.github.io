@@ -10,12 +10,12 @@ body {
 
 /*Wraps everything*/
 #page-wrap {
-     max-width: 1100px;
-     margin: 10px auto;
-     padding: 20px 20px 0;
-     border-style: ridge;
-     border-width: 2px;
-     background-color: rgb(9,33,64);
+  max-width: 1100px;
+  margin: 10px auto;
+  padding: 20px 20px 0;
+  border-style: ridge;
+  border-width: 2px;
+  background-color: rgb(9,33,64);
 }
 
 /*Header*/
@@ -319,8 +319,8 @@ a.logo {
 }
 
 .projects a:link {
-text-decoration: none;
-color: red;
+  text-decoration: none;
+  color: red;
 }
 
 .projects a:visited {
