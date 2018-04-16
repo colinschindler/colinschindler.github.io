@@ -18,10 +18,10 @@
   <meta name="googlebot" content="index,follow">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   <link rel="icon" type="image/png" href="images/cs-favicon.png">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript" src="js/javascript.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
@@ -59,14 +59,19 @@
         <div class="glide">
 
           <div class="glide__bullets" data-glide-el="controls[nav]">
-              <button class="glide__bullet" data-glide-dir="=0"><a>Big Dipper</a></button>
-              <button class="glide__bullet" data-glide-dir="=1"><a>Big Horns</a></button>
-              <button class="glide__bullet" data-glide-dir="=2"><a>Color of the Badlands</a></button>
-              <button class="glide__bullet" data-glide-dir="=3"><a>Hunter's Moon</a></button>
-              <button class="glide__bullet" data-glide-dir="=4"><a>Missourian Mirror</a></button>
-              <button class="glide__bullet" data-glide-dir="=5"><a>Moonlit Squall</a></button>
-              <button class="glide__bullet" data-glide-dir="=6"><a>Old 16</a></button>
-            </div>
+            <button class="glide__bullet" data-glide-dir="=0"><a>Big Dipper</a></button>
+            <button class="glide__bullet" data-glide-dir="=1"><a>Big Horns</a></button>
+            <button class="glide__bullet" data-glide-dir="=2"><a>Color of the Badlands</a></button>
+            <button class="glide__bullet" data-glide-dir="=3"><a>Hunter's Moon</a></button>
+            <button class="glide__bullet" data-glide-dir="=4"><a>Missourian Mirror</a></button>
+            <button class="glide__bullet" data-glide-dir="=5"><a>Moonlit Squall</a></button>
+            <button class="glide__bullet" data-glide-dir="=6"><a>Old 16</a></button>
+          </div>
+
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--prev" data-glide-dir="<"><a><i class="far fa-arrow-alt-circle-left fa-3x"></i></a></button>
+            <button class="glide__arrow glide__arrow--next" data-glide-dir=">"><a><i class="far fa-arrow-alt-circle-right fa-3x"></i></a></button>
+          </div>
 
           <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
@@ -80,10 +85,7 @@
             </ul>
           </div>
 
-          <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--prev" data-glide-dir="<"><a><i class="far fa-arrow-alt-circle-left fa-7x"></i></a></button>
-            <button class="glide__arrow glide__arrow--next" data-glide-dir=">"><a><i class="far fa-arrow-alt-circle-right fa-7x"></i></a></button>
-          </div>
+          
 
           <script>
             new Glide('.glide', {

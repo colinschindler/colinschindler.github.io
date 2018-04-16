@@ -135,16 +135,20 @@ glide__bullets button {
 
 .glide__arrow--prev {
   left:0;
-  top:60%;
 }
 
 .glide__arrow--next {
   right:0;
-  top:60%;
 }
 
 .glide__arrow a:hover {
   color:red;
+}
+
+@media screen and (max-width: 800px) {
+  .glide__arrow {
+    opacity: 0;
+  }
 }
 /*END Print Sliders on Main Page*/
 
