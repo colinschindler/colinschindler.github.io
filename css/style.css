@@ -115,6 +115,43 @@ a.logo {
 }
 /*End Header*/
 
+/*Print Sliders on Main Page*/
+.prints-album {
+  text-align: center;
+}
+
+.glide__slides img {
+  max-height: 450px;
+}
+
+.glide {
+  text-align: center;
+}
+
+.glide__arrow {
+  position: absolute;
+  bottom:50px;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  outline:none;
+  color:white;
+}
+
+.glide__arrow--prev {
+  left:0;
+  top:30px;
+}
+
+.glide__arrow--next {
+  right:0;
+  top:30px;
+}
+
+.glide__arrow a:hover {
+  color:red;
+}
+/*END Print Sliders on Main Page*/
+
 /*Prints*/
 .prints-images {
   display: block;

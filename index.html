@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+
+<head>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,116 +20,165 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="images/cs-favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
   <script type="text/javascript" src="js/javascript.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-  
-  </head>
-  <body>
-  <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '234066190368430',
-      xfbml      : true,
-      version    : 'v2.8'
-    });
-    FB.AppEvents.logPageView();
-  };
+  <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+</head>
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-  	<div id="page-wrap">
-      <section id="masthead">
-        <div id="logo-container">
-          <a href="index.html">
-            <img class="logo" src="images/Colin.jpg" alt="Colin Schindler logo">
-            <div id="colinschindler">Colin Schindler</div>
-          </a>
-          <div id="motto-container">
-            <small>Photography, cycling, wandering, wondering...</small>
-            <div>
-              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<body>
+  <div id="page-wrap">
+    <section id="masthead">
+      <div id="logo-container">
+        <a href="index.html">
+          <img class="logo" src="images/Colin.jpg" alt="Colin Schindler logo">
+          <div id="colinschindler">Colin Schindler</div>
+        </a>
+        <div id="motto-container">
+          <small>Photography, cycling, wandering, wondering...</small>
+          <div>
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
               <input type="hidden" name="cmd" value="_s-xclick">
               <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
               ">
               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-              </form>
-            </div>
+            </form>
           </div>
-          <hr>
+        </div>
+        <hr>
+      </div>
+    </section>
+    <div id="content">
+      <section id="print-sliders">
+        <h1>Prints</h1>
+
+        <h1 class="prints-album">South Dakotan Landscapes</h1>
+
+        <div class="glide">
+
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"><a>Big Dipper</a></button>
+              <button class="glide__bullet" data-glide-dir="=1"><a>Big Horns</a></button>
+              <button class="glide__bullet" data-glide-dir="=2"><a>Color of the Badlands</a></button>
+              <button class="glide__bullet" data-glide-dir="=3"><a>Hunter's Moon</a></button>
+              <button class="glide__bullet" data-glide-dir="=4"><a>Missourian Mirror</a></button>
+              <button class="glide__bullet" data-glide-dir="=5"><a>Moonlit Squall</a></button>
+              <button class="glide__bullet" data-glide-dir="=6"><a>Old 16</a></button>
+            </div>
+
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide"><img alt="" src="images/prints/sd-landscapes/big-dipper-fullsized.jpg"></li>
+              <li class="glide__slide"><img alt="" src="images/prints/sd-landscapes/big-horns-fullsized.jpg"></li>
+              <li class="glide__slide"><img alt="" src="images/prints/sd-landscapes/color-of-badlands-8x10.jpg"></li>
+              <li class="glide__slide"><img alt="" src="images/prints/sd-landscapes/hunter-moon-fullsized.jpg"></li>
+              <li class="glide__slide"><img alt="" src="images/prints/sd-landscapes/missourian-mirror-8x10.jpg"></li>
+              <li class="glide__slide"><img alt="" src="images/prints/sd-landscapes/moonlit-squall-fullsized.jpg"></li>
+              <li class="glide__slide"><img alt="" src="images/prints/sd-landscapes/old16-8x10.jpg"></li>
+            </ul>
+          </div>
+
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--prev" data-glide-dir="<"><a><i class="far fa-arrow-alt-circle-left fa-7x"></i></a></button>
+            <button class="glide__arrow glide__arrow--next" data-glide-dir=">"><a><i class="far fa-arrow-alt-circle-right fa-7x"></i></a></button>
+          </div>
+
+          <script>
+            new Glide('.glide', {
+              type: 'carousel',
+              startAt: 3,
+              perView: 1
+            }).mount()
+          </script>
+
+        </div>
+
+      </section>
+
+      <section id="latest">
+        <h1>Latest
+          <small class="smalls">
+            <a href="prints/index.html">all prints</a>
+          </small>
+        </h1>
+        <div id="latest-wrap">
+
+          <center>
+            <div class="latest-contrast-box">
+              <img id="latest-image" src="images/prints/sd-landscapes/night-bridge.jpg" alt="The landmark old 16 bridge from my hometown reflecting along the rocky shore of the Missouri River."
+                onMouseDown="popupMsg('this image is copyrighted and low-res, duuuude...')">
+            </div>
+          </center>
+
+          <div class="latest-text">
+            <p>The landmark old 16 bridge from my hometown reflecting along the rocky shore of the Missouri River.</p>
+            <p>(Image is only available as a canvas wrapped float)</p>
+          </div>
+
+          <div class="paypal-button">
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="KGLR262F62J7U">
+              <table>
+                <tr>
+                  <td>
+                    <input type="hidden" name="on0" value="Sizes">Sizes</td>
+                </tr>
+                <tr>
+                  <td>
+                    <select name="os0">
+                      <option value="20x30">20x30 $199.99 USD</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD">
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+
         </div>
       </section>
-      <div id="content">
-          <section id="latest">
-            <h1>Latest
-            <small class="smalls"><a href="prints/index.html">all prints</a></small>
-            </h1>
-            <div id="latest-wrap">
-
-              <center>
-                  <div class="latest-contrast-box">
-                      <img id="latest-image" src="images/prints/sd-landscapes/night-bridge.jpg" alt="The landmark old 16 bridge from my hometown reflecting along the rocky shore of the Missouri River." onMouseDown="popupMsg('this image is copyrighted and low-res, duuuude...')">  
-                  </div>
-              </center>
-
-              <div class="latest-text">
-                  <p>The landmark old 16 bridge from my hometown reflecting along the rocky shore of the Missouri River.</p>
-                  <p>(Image is only available as a canvas wrapped float)</p>
-              </div>
-
-              <div class="paypal-button">
-                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="KGLR262F62J7U">
-                    <table>
-                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
-                      <option value="20x30">20x30 $199.99 USD</option>
-                    </select> </td></tr>
-                    </table>
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                  </form>   
-              </div>
-
-            </div>
-          </section>
-          <section id="projects">
-            <h1>Projects
-              <small class="smalls"><a target="_blank" href="prints/index.html">see all</a></small>
-            </h1>
-            <UL>
-              <li>
-                <div id="project1" class="projects">
-                  <a target="_blank" href="prints/index.html#usa-landscapes-anchor"><img id="project1-image" src="images/prints/usa-landscapes/millsite-canyon.jpg" alt="US Landscapes">
-                  <h2>USA Landscapes</h2>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div id="project2" class="projects">
-                  <a target="_blank" href="prints/index.html#sd-landscapes-anchor"><img id="project2-image" src="images/Missourian Mirror.jpg" alt="South Dakota Landscapes">
-                  <h2>SD Landscapes</h2>
-                  </a>
-                </div>
-              </li>
-            </UL>
-          </section>
-          <section id="blog">
-            <h1>Blog Posts
-              <small class="smalls"><a target="_blank" href="blog/index.html">see all</a></small>
-            </h1>
-            <div id="post1" class="posts">
-              <a target="_blank" href="blog/2017-12-14.html"><h2>2017 _ Apr. 12th : Escaping the Frozen North to Dallas, TX</h2>
+      <section id="projects">
+        <h1>Projects
+          <small class="smalls">
+            <a target="_blank" href="prints/index.html">see all</a>
+          </small>
+        </h1>
+        <UL>
+          <li>
+            <div id="project1" class="projects">
+              <a target="_blank" href="prints/index.html#usa-landscapes-anchor">
+                <img id="project1-image" src="images/prints/usa-landscapes/millsite-canyon.jpg" alt="US Landscapes">
+                <h2>USA Landscapes</h2>
               </a>
             </div>
-            <!-- <div id="post2" class="posts">
+          </li>
+          <li>
+            <div id="project2" class="projects">
+              <a target="_blank" href="prints/index.html#sd-landscapes-anchor">
+                <img id="project2-image" src="images/Missourian Mirror.jpg" alt="South Dakota Landscapes">
+                <h2>SD Landscapes</h2>
+              </a>
+            </div>
+          </li>
+        </UL>
+      </section>
+      <section id="blog">
+        <h1>Blog Posts
+          <small class="smalls">
+            <a target="_blank" href="blog/index.html">see all</a>
+          </small>
+        </h1>
+        <div id="post1" class="posts">
+          <a target="_blank" href="blog/2017-12-14.html">
+            <h2>2017 _ Apr. 12th : Escaping the Frozen North to Dallas, TX</h2>
+          </a>
+        </div>
+        <!-- <div id="post2" class="posts">
               <a target="_blank" href="blog/2017-4-7.html"><h2>2017 _ Apr. 7th : Marin County</h2>
               </a>
             </div>
@@ -136,61 +186,76 @@
               <a target="_blank" href="blog/2017-4-6.html"><h2>2017 _ Apr. 6th : San Fran</h2>
               </a>
             </div> -->
-          </section>
-          <section id="meshell">
-            <h1>MeShell Wolf
-              <small class="smalls"><a target="_blank" href="http://www.meshellwolf.com/">website</a></small>
-            </h1>
+      </section>
+      <section id="meshell">
+        <h1>MeShell Wolf
+          <small class="smalls">
+            <a target="_blank" href="http://www.meshellwolf.com/">website</a>
+          </small>
+        </h1>
 
-            <div id="meshell-social">
-              <a target="_blank" href="https://www.facebook.com/meshellwolfy/"><i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-              <a target="_blank" href="https://twitter.com/meshellwolfy?lang=en"><i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-              <a target="_blank" href="https://www.instagram.com/meshellwolfy/"><i class="fab fa-instagram fa-3x" aria-hidden="true"></i></a>
+        <div id="meshell-social">
+          <a target="_blank" href="https://www.facebook.com/meshellwolfy/">
+            <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/meshellwolfy?lang=en">
+            <i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i>
+          </a>
+          <a target="_blank" href="https://www.instagram.com/meshellwolfy/">
+            <i class="fab fa-instagram fa-3x" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="meshell-container">
+
+          <div class="spotify-player">
+            <iframe src="https://embed.spotify.com/?uri=spotify:album:138sR6rNBR3B3qDKFvMC3y" height="380" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+
+          <div class="wakeup-wrap">
+
+            <div class="wakeup-img">
+              <img src="images/wakeup-albumart.jpg">
             </div>
 
-            <div class="meshell-container">
-
-              <div class="spotify-player">
-                <iframe src="https://embed.spotify.com/?uri=spotify:album:138sR6rNBR3B3qDKFvMC3y" height="380" frameborder="0" allowtransparency="true"></iframe>
-              </div>
-              
-              <div class="wakeup-wrap">
-
-                <div class="wakeup-img">
-                  <img src="images/wakeup-albumart.jpg">
-                </div>
-
-                <div class="paypal-button-wakeup">
-                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+            <div class="paypal-button-wakeup">
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
                   ">
-                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                  </form>
-                </div>
-
-                <div class="wakeup-price">
-                  <p>$10</p>
-                </div>
-
-              </div>
-
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
             </div>
-          </section>
-      </div>
-      <hr>
-      <footer id="footer">
-        <div id="social">
 
-          <a target="_blank" href="https://500px.com/ColinSchindlerPhotography"><i class="fab fa-500px fa-3x"></i></a>
+            <div class="wakeup-price">
+              <p>$10</p>
+            </div>
 
-          <a target="_blank" href="https://github.com/colinschindler"><i class="fab fa-github fa-3x"></i></a>
-
-          <a target="_blank" href="mailto:schindlercolin@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+          </div>
 
         </div>
-      </footer>
+      </section>
     </div>
-  </body>
+    <hr>
+    <footer id="footer">
+      <div id="social">
+
+        <a target="_blank" href="https://500px.com/ColinSchindlerPhotography">
+          <i class="fab fa-500px fa-3x"></i>
+        </a>
+
+        <a target="_blank" href="https://github.com/colinschindler">
+          <i class="fab fa-github fa-3x"></i>
+        </a>
+
+        <a target="_blank" href="mailto:schindlercolin@gmail.com">
+          <i class="fas fa-envelope fa-3x"></i>
+        </a>
+
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
