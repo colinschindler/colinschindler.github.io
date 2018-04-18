@@ -1006,6 +1006,10 @@ img:hover {
 #social a:hover {
   color: red;
 }
+
+.print-title {
+  color:red;
+}
 /*End Social Media in Footer*/
 
 /* American Dreams*/
