@@ -129,20 +129,29 @@ glide__bullets button {
   max-height: 450px;
 }
 
-.glide {
+.glide, .glide2 {
   text-align: center;
 }
 
 .glide__arrow--prev {
-  left:0;
+  top:5%;
+  left:12%;
 }
 
 .glide__arrow--next {
-  right:0;
+  top:5%;
+  right:12%;
 }
 
 .glide__arrow a:hover {
   color:red;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -291,6 +300,7 @@ glide__bullets button {
 /*HOMEPAGE*/
 /* latest image */
 #latest h1, p {
+  text-align: center;
   margin-top: 25px;
   margin-bottom: 25px;
 }
