@@ -326,26 +326,26 @@ glide__bullets button {
 
 .latest-text {
   margin:0 auto;
-  width:45%;
+  width:65%;
 }
 
-.latest-contrast-box {
+/* .latest-contrast-box {
   margin:0 auto;
   padding-top:2%;
   padding-bottom:2%;
   width:50%;
   background-color: white;
   border-radius: 20px;
-}
+} */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .latest-text {
     width:100%;
   }
 
-  .latest-contrast-box {
+  /* .latest-contrast-box {
     width:100%;
-  }
+  } */
   }
 /*End latest image*/
 
