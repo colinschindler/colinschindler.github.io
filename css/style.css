@@ -208,14 +208,17 @@ glide__bullets button {
 .paypal-button {
 	margin:0 auto;
 	text-align:center;
-  padding:0 10px 0 10px;
 	width:150px;
 	height:115px;
-  font-size:x-large;
+  font-size:23px;
   color:white;
   background-color:red;
   border:solid white 1px;;
   border-radius:25px;
+}
+
+.paypal-button table {
+  padding-left: 3px;
 }
 
 /*white frame around Missouri River City at Night*/
