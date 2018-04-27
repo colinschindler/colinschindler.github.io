@@ -142,6 +142,7 @@ a.logo {
 
 /*Print Sliders on Main Page*/
 .prints-album {
+  margin: 0 auto;
   text-align: center;
 }
 

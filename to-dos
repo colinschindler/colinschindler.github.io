@@ -4,6 +4,8 @@ simple
 - update seo info
 - fix the big dipper blacked out shitty-looking area
 - create more interesting descriptions for all shots, be a poet
+- create a bunch of different colin headshot and make a 
+  js function to randomly select on on load
 
 hard
 - add the state icon where us landscape photo was taken 
