@@ -6,6 +6,7 @@ simple
 - create more interesting descriptions for all shots, be a poet
 - create a bunch of different colin headshot and make a 
   js function to randomly select on on load
+- in sw blog, add the og img as a background for each post rather than just text
 
 hard
 - add the state icon where us landscape photo was taken 
