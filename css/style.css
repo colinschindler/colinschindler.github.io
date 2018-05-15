@@ -476,6 +476,19 @@ glide__bullets button {
   }
 }
 
+@media only screen and (max-width: 510px) {
+  .meshell-container {
+    justify-content: center;
+  }
+
+  #meshell {
+    background-image: url('../images/meshell/meesh-guitar-whiteriver.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+  }
+}
+
 #meshell-social {
   margin-bottom:15px;
   padding:10px;
