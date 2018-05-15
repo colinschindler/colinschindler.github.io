@@ -259,76 +259,14 @@ glide__bullets button {
 }
 /*End Prints*/
 
-/* Store */
-#store img {
-  width: 100%;
-}
-
-#store p {
-  text-align: center;
-}
-
-.store-images {
-  border-style: outset;
-  padding: 10px;
-}
-
-.store-tables {
-  width: 100%;
-  border-style: groove;
-  border-width: thin;
-}
-
-.store-button {
-  display: inline-block;
-  border-radius: 10px;
-  background-color: red;
-  border: none;
-  color: #0f6930;
-  font-family: 'Indie Flower', cursive;
-  text-align: center;
-  font-size: 29px;
-  font-weight: bolder;
-  width: 200px;
-  height: 55px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 15px;
-}
-
-.store-button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.store-button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.store-button:hover span {
-  padding-right: 25px;
-}
-
-.store-button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-/* End Store */
 
 .smalls {
   padding-left: 40px;
 }
 
 /*HOMEPAGE*/
-/* latest image */
-#latest h1, p {
+/* LATEST SECTION*/
+#latest p {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -355,15 +293,6 @@ glide__bullets button {
   width:65%;
 }
 
-/* .latest-contrast-box {
-  margin:0 auto;
-  padding-top:2%;
-  padding-bottom:2%;
-  width:50%;
-  background-color: white;
-  border-radius: 20px;
-} */
-
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .latest-text {
     width:100%;
@@ -373,32 +302,32 @@ glide__bullets button {
     width:100%;
   } */
   }
-/*End latest image*/
+/*END LATEST SECTION*/
 
-/* Last three Blog Posts on Homepage */
+/* TRAVEL JOURNALS SECTION */
 
 #bloglist .smalls{
   display: block;
   font-size: 20px;
 }
 
-#blog h1, h2 {
+#trip-journals h1, h2 {
   margin-top: 25px;
   margin-bottom: 25px;
   color:white;
 }
 
-#blog h2 {
+#trip-journals h2 {
   color:red;
 }
 
-#blog h2:hover {
+#trip-journals h2:hover {
   color:white;
 }
 
-/*End Blog list on Homepage*/
+/* END TRAVEL JOURNALS SECTION */
 
-/*MeShell Wolf on Homepage*/
+/*MESHELL SECTION*/
 #meshell {
   background-image: url('../images/meshell/meesh-and-sam.png');
   background-repeat: no-repeat;
@@ -499,16 +428,12 @@ glide__bullets button {
 .wakeup-price p {
   font-size: 80px;
   color: red;
-
   /*safari*/
   -webkit-transform: rotate(-25deg);
-
   /* Firefox */
   -moz-transform: rotate(-25deg);
-
   /* IE */
   -ms-transform: rotate(-25deg);
-
   /* Opera */
   -o-transform: rotate(-25deg);
 }
@@ -525,7 +450,7 @@ glide__bullets button {
   transform: rotate(-21deg);
 }
 
-/*END MeShell Wolf on Homepage*/
+/* END MESHELL SECTION */
 /*END HOMEPAGE*/
 
 .smalls a {
@@ -873,160 +798,7 @@ img:hover {
 
 /*END Blog & Posts*/
 
-/*Van*/
-.van-header img{
-  width: 100%
-}
-
-.van-nav li {
-  display: inline;
-}
-
-.van-nav {
-  width: 100%;
-}
-
-.van-nav ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  list-style: none;
-}
-
-.van-nav a {
-  padding: 0.1rem 0.75rem;
-  font-size: 1.6rem;
-  max-width: 140px;
-  font-weight: bold;
-  text-decoration: none;
-  display: flex;
-  align-items: flex-start;
-  color: red;
-}
-
-.van-nav a:hover {
-  font-size: 2rem;
-  color: black;
-  background-color: red;
-}
-
-.location-section iframe {
-  width: 80%;
-  height: 25em;
-}
-
-.sub-heading {
-  padding-left: 20px;
-  color: red;
-  font-weight: bolder;
-}
-
-.what-section p {
-  margin: 0 auto;
-  background-color: skyblue;
-  padding: 15px;
-  width: 85%;
-  font-weight: bolder;
-  line-height: 35px;
-  color: red;
-}
-
-/*END Van*/
-
-/*Code*/
-#code-page-wrap{
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 20px 20px 0;
-  border-style: ridge;
-  border-width: 2px;
-  font-family: 'Press Start 2P', cursive;
-  background-color: black;
-}
-
-.code-header img{
-  width: 100%
-}
-
-.code-nav li {
-  display: inline;
-}
-
-.code-nav {
-  width: 100%;
-}
-
-.code-nav ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  list-style: none;
-}
-
-.code-nav a {
-  padding: 0.5rem 0.75rem;
-  font-size: 1.4rem;
-  max-width: 140px;
-  font-weight: bold;
-  text-decoration: none;
-  display: flex;
-  align-items: flex-start;
-  color: red;
-}
-
-.code-nav-home a:hover {
-  font-size: 2rem;
-  color: black;
-  background-color: red;
-}
-
-.code-nav-van a {
-  color: mediumspringgreen;
-}
-
-.code-nav-van a:hover {
-  font-size: 2rem;
-  color: black;
-  background-color: mediumspringgreen;
-}
-
-.code-nav-blog a {
-  color: darkorange;
-}
-
-.code-nav-blog a:hover {
-  font-size: 2rem;
-  color: black;
-  background-color: darkorange;
-}
-
-.code-nav-prints a {
-  color: deepskyblue;
-}
-
-.code-nav-prints a:hover {
-  font-size: 1.5rem;
-  color: black;
-  background-color: deepskyblue;
-}
-
-.code-nav-meshell a {
-  color: darkviolet;
-}
-
-.code-nav-meshell a:hover {
-  font-size: 1.3rem;
-  color: black;
-  background-color: darkviolet;
-}
-
-/*END Code*/
-
-/*Social Media in Footer*/
+/*FOOTER*/
 #social {
   text-align: center;
   margin-bottom: 15px;
@@ -1053,37 +825,7 @@ img:hover {
 .print-title {
   color:red;
 }
-/*End Social Media in Footer*/
-
-/* American Dreams*/
-.dream-wrap {
-  width: 100%;
-  margin: 5px;
-}
-
-.dream-image {
-max-width: 440px;
-margin: 0 auto;
-}
-
-.dream-image-big {
-  width: 100%;
-}
-
-.dream-image img {
-  width: 100%;
-}
-
-.dream-text {
-  max-width: 420px;
-  margin: 0 auto;
-}
-
-.dream-text p {
-  width: 100%;
-  text-align: center;
-}
-/* American Dreams End*/
+/*END FOOTER*/
 
 /*Google iFrames*/
 iframe {
