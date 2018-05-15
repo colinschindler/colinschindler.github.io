@@ -481,11 +481,15 @@ glide__bullets button {
     justify-content: center;
   }
 
+
+
   #meshell {
     background-image: url('../images/meshell/meesh-guitar-whiteriver.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
+    border-radius: 25px;
+    text-align: center;
   }
 }
 
@@ -506,6 +510,17 @@ glide__bullets button {
 
 #meshell-social a:hover {
   color:red;
+}
+
+@media screen and (max-width: 570px) {
+  #meshell-social {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .spotify-player iframe {
+    margin:0 auto;
+    width:100%;
+  }
 }
 
 .spotify-player {
