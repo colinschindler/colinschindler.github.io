@@ -450,10 +450,30 @@ glide__bullets button {
 /*End Blog list on Homepage*/
 
 /*MeShell Wolf on Homepage*/
+#meshell {
+  background-image: url('../images/meshell/meesh-and-sam.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
 .meshell-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 714px) {
+  .meshell-container {
+    justify-content: center;
+  }
+
+  #meshell {
+    background-image: url('../images/meshell/meesh-and-sam-tall.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+  }
 }
 
 #meshell-social {
@@ -485,11 +505,13 @@ glide__bullets button {
   text-align: center;
   width: 280px;
   padding: 5px;
+  transform: rotate(10deg);
 }
 
 .wakeup-wrap img {
   margin-bottom: 10px;
   width: 100%;
+  box-shadow: 2px 2px 20px;
 }
 
 /*Adding price to corner of album art*/
@@ -519,6 +541,11 @@ glide__bullets button {
   margin-top: -25px;
   top: 0;
   left: 3%;
+}
+
+.paypal-button-wakeup {
+  padding-left: 20px;
+  transform: rotate(-21deg);
 }
 
 /*END MeShell Wolf on Homepage*/
