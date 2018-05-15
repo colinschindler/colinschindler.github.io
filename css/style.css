@@ -375,57 +375,6 @@ glide__bullets button {
   }
 /*End latest image*/
 
-/*Projects section on Homepage */
-.projects {
-  display: inline-block;
-}
-
-#projects h1, p, ul {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-#projects ul {
-  list-style: none;
-  text-align: center;
-}
-
-#projects ul li {
-  display: inline;
-}
-
-.projects a:link {
-  text-decoration: none;
-  color: red;
-}
-
-.projects a:visited {
-  text-decoration: none;
-  color: red;
-}
-
-.projects a:hover h2 {
-  background-color: red;
-  color: white;
-  font-size: 26px;
-  border-radius: 15px;
-}
-
-#project1-image, #project2-image, #project3-image {
-  height: 150px;
-}
-
-#project1-image, #project2-image, #project1 h2, #project2 h2 {
-  margin-right: 20px;
-}
-
-@media screen and (max-width: 570px) {
-    #project1-image, #project2-image, #project1 h2, #project2 h2 {
-  margin-right: 0px;
-}
-}
-/*Projects end*/
-
 /* Last three Blog Posts on Homepage */
 
 #bloglist .smalls{
