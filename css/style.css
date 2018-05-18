@@ -302,7 +302,21 @@ glide__bullets button {
     width:100%;
   } */
   }
-/*END LATEST SECTION*/
+/* END - LATEST SECTION - END */
+
+/* FREELANCING SECTION */
+.freelancing-photo {
+  width: 100%;
+}
+
+.freelancing-photo-categories {
+  width: 20%;
+}
+
+.freelancing-photo-display {
+  width: 80%
+}
+/* END - FREELANCING SECTION - END */
 
 /* TRAVEL JOURNALS SECTION */
 
