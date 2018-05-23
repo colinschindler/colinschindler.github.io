@@ -311,8 +311,6 @@ glide__bullets button {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  border: solid 1px;
-  border-color: white;
 }
 
 #freelancing-left {
@@ -325,7 +323,8 @@ glide__bullets button {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 20px;
+  padding: 20px 0px 20px 0;
+
 }
 
 #freelancing-categories button {
@@ -333,6 +332,7 @@ glide__bullets button {
   width: 125px;
   height: 25px;
   margin-bottom: 20px;
+  font-size: 15px;
   border: none;
   border-radius: 25px;
   color: red;
@@ -342,35 +342,31 @@ glide__bullets button {
 #freelancing-categories button:hover {
   background-color:red;
   color:white;
-  font-size: 15px;
-  font-weight: bolder;
+  font-weight: 900;
   box-shadow: 6px 6px 8px 10px red;
 }
 
 #freelancing-right {
   height: 100%;
   width: 70%;
-  border: solid 1px;
-  border-color: white;
 }
 
 #freelancing-right img {
   width: 100%;
+  border-radius: 20px;
 }
 
 #freelancing-info {
-  border: solid 1px;
-  border-color: white;
+  margin-bottom: 20px;
 }
 
-#freelancing-description {
-  border: solid 1px;
-  border-color: white;
+.freelancing-description {
+  text-align: center;
 }
 
 #freelancing-price {
-  border: solid 1px;
-  border-color: white;
+  margin-top: 10px;
+  text-align: center;
 }
 
 /* END - FREELANCING SECTION - END */
