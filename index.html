@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript" src="js/javascript.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 </head>
 
@@ -662,25 +663,17 @@
           <div id="freelancing-left">
             
             <div id="freelancing-categories">
-              <button>Cycling Portraits</button>
-              <button>Portraits</button>
-              <button>Graduation</button>
-              <button>Engagement</button>
-              <button>Wedding</button>
+              <button id="button-cycling" onclick="buttonCycling()">Cycling Portraits</button>
+              <button id="button-portraits" onclick="buttonPortraits()">Portraits</button>
+              <button id="button-graduation" onclick="buttonGraduation()">Graduation</button>
+              <button id="button-engagement" onclick="buttonEngagement()">Engagement</button>
+              <button id="button-wedding" onclick="buttonWedding()">Wedding</button>
             </div>
 
             <div id="freelancing-info">
 
-              <p class="freelancing-description">
+              <p id="freelancing-description">
                 A description of things that should be described.
-              </p>
-
-              <p class="freelancing-description">
-                Possibly a second description of things that should be described.
-              </p>
-
-              <p class="freelancing-description">
-                Possibly a second description of things that should be described.
               </p>
 
               <p id="freelancing-price">Price</p>
@@ -690,7 +683,7 @@
           </div>
 
           <div id="freelancing-right">
-            <img src="images/cyclists/Frank-Kunkle.jpg"/>
+            <img id="freelancing-image" src="images/cyclists/Frank-Kunkle.jpg"/>
           </div>
 
         </div>

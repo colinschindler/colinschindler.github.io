@@ -347,6 +347,14 @@ glide__bullets button {
   box-shadow: 6px 6px 8px 10px red;
 }
 
+.active {
+  background-color:red;
+  color:white;
+  font-weight: 900;
+  font-style: italic;
+  box-shadow: 6px 6px 8px 10px red;
+}
+
 #freelancing-categories button:focus {
   outline: 0;
 }
