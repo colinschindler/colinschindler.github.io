@@ -371,6 +371,11 @@ glide__bullets button {
 
 #freelancing-info {
   margin-bottom: 20px;
+  text-align: center;
+}
+
+#freelancing-price {
+  color: white;
 }
 
 .freelancing-description {

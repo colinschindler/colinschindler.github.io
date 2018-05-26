@@ -8,9 +8,12 @@ alert(theMsg);
 function buttonCycling() {
   var description = document.getElementById("freelancing-description");
   var price = document.getElementById("freelancing-price");
+  var instagram = document.getElementById("instagram-link");
 
-  description.textContent = "cycling text!";
-  price.textContent = "invitation"
+  description.textContent = "An instagram project to showcase the cycling characters of Charleston and the bikes they ride.";
+  price.textContent = "Follow Along";
+  instagram.innerText = "@charlestoncyclists";
+  instagram.href = "https://www.instagram.com/charlestoncyclists/";
 
   document.getElementById('freelancing-image').src="images/cyclists/Frank-Kunkle.jpg";
 }
@@ -20,7 +23,7 @@ function buttonPortraits() {
   var price = document.getElementById("freelancing-price");
 
   description.textContent = "portrait text!";
-  price.textContent = "$75"
+  price.textContent = "$75";
 
   document.getElementById('freelancing-image').src="images/freelancing/portrait.jpg";
 }
