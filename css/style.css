@@ -302,7 +302,105 @@ glide__bullets button {
     width:100%;
   } */
   }
-/*END LATEST SECTION*/
+/* END - LATEST SECTION - END */
+
+/* FREELANCING SECTION */
+.freelancing-container {
+  display: flex; 
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#freelancing-left {
+  width: 29%;
+}
+
+#freelancing-categories {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0px 20px 0;
+
+}
+
+#freelancing-categories button {
+  background-color: transparent;
+  width: 125px;
+  height: 25px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 25px;
+  color: red;
+  box-shadow: 1px 2px 4px 4px red;
+}
+
+#freelancing-categories button:hover {
+  background-color:red;
+  color:white;
+  font-weight: 900;
+  font-style: italic;
+  box-shadow: 6px 6px 8px 10px red;
+}
+
+.active {
+  background-color:red;
+  color:white;
+  font-weight: 900;
+  font-style: italic;
+  box-shadow: 6px 6px 8px 10px red;
+}
+
+#freelancing-categories button:focus {
+  outline: 0;
+}
+
+#freelancing-right {
+  height: 100%;
+  width: 70%;
+}
+
+#freelancing-right img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#freelancing-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#freelancing-price {
+  color: white;
+}
+
+.freelancing-description {
+  text-align: center;
+}
+
+#freelancing-price {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  #freelancing-container {
+    flex-flow: column;
+  }
+
+  #freelancing-right {
+    order: 1;
+    width:100%;
+  }
+  #freelancing-left {
+    order: 2;
+    width: 100%;
+  }
+}
+/* END - FREELANCING SECTION - END */
 
 /* TRAVEL JOURNALS SECTION */
 
@@ -835,7 +933,7 @@ iframe {
 }
 
 body {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Architects Daughter', cursive;
 }
 
 p {
