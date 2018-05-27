@@ -30,7 +30,7 @@ function buttonPortraits() {
   instagram.href = "mailto:schindlercolin@gmail.com";
   instagram.text = "Book Session";
 
-  document.getElementById('freelancing-image').src="images/freelancing/portrait.jpg";
+  document.getElementById('freelancing-image').src="images/freelancing/portraits.jpg";
 }
 
 function buttonGraduation() {
