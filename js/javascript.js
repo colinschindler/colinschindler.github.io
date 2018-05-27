@@ -9,11 +9,12 @@ function buttonCycling() {
   var description = document.getElementById("freelancing-description");
   var price = document.getElementById("freelancing-price");
   var instagram = document.getElementById("instagram-link");
+  var instagramAnchor = price.getElementsByTagName('a');
 
   description.textContent = "An instagram project to showcase the cycling characters of Charleston and the bikes they ride.";
   price.textContent = "Follow Along";
-  instagram.innerText = "@charlestoncyclists";
   instagram.href = "https://www.instagram.com/charlestoncyclists/";
+  instagram.text = "@charlestoncyclists";
 
   document.getElementById('freelancing-image').src="images/cyclists/Frank-Kunkle.jpg";
 }
