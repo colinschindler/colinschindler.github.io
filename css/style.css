@@ -310,11 +310,9 @@ glide__bullets button {
   flex-flow: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 #freelancing-left {
-  height: 400px;
   width: 29%;
 }
 
@@ -384,9 +382,24 @@ glide__bullets button {
 
 #freelancing-price {
   margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
+@media only screen and (max-width: 900px) {
+  #freelancing-container {
+    flex-flow: column;
+  }
+
+  #freelancing-right {
+    order: 1;
+    width:100%;
+  }
+  #freelancing-left {
+    order: 2;
+    width: 100%;
+  }
+}
 /* END - FREELANCING SECTION - END */
 
 /* TRAVEL JOURNALS SECTION */
