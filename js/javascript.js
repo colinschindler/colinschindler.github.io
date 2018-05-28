@@ -5,6 +5,7 @@ function popupMsg(theMsg) {
 alert(theMsg);
 }
 
+//START -- FREELANCING BUTTONS -- START
 function buttonCycling() {
   var description = document.getElementById("freelancing-description");
   var price = document.getElementById("freelancing-price");
@@ -65,4 +66,13 @@ function buttonWedding() {
   price.textContent = "To Be Determined"
   
   document.getElementById('freelancing-image').src="images/freelancing/wedding.jpg";
+}
+//END -- FREELANCING BUTTONS -- END
+
+function randCyclistImg() {
+  //need to update number to num of photos in /cyclists
+  var numCyclists = 4;
+  var randCyclist = Math.floor(Math.random() * numCyclists) + 1;
+
+  document.getElementById("cyclist-img").src = "images/cyclists/" + randCyclist + ".jpg";
 }

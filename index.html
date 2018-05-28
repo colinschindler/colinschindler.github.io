@@ -28,7 +28,7 @@
   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 </head>
 
-<body>
+<body onload="randCyclistImg()">
   <div id="page-wrap">
 
     <section id="masthead">
@@ -91,6 +91,15 @@
           </div>
   
         </section>
+
+      <section id="random-cyclist">
+        <h1>Charleston Cyclists</h1>
+
+        <div id="random-cyclist-container">
+          <img id="cyclist-img" src="1.jpg"/>
+          <button id="random-cyclist-button" onclick="randCyclistImg()">Random Cyclist</button>
+        </div>
+      </section>
 
       <section id="print-sliders">
         <h1>Prints

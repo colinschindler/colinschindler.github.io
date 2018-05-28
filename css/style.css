@@ -264,6 +264,27 @@ glide__bullets button {
   padding-left: 40px;
 }
 
+/*Charleston Cyclists SECTION*/
+#random-cyclist-container {
+  width: 100%;
+  height: 800px;
+}
+
+#cyclist-img {
+  display: block;
+  margin:0 auto;
+  width: 100%;
+  border-radius: 5px;
+  max-height: 800px;
+}
+
+#random-cyclist-button {
+  display: block;
+  margin: 0 auto;
+}
+
+/*END Charleston Cyclists SECTION END*/
+
 /*HOMEPAGE*/
 /* LATEST SECTION*/
 #latest p {
