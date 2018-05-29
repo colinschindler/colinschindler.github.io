@@ -1,3 +1,6 @@
+Charleston Cyclists 
+- img folder of cyclists named 1,2,3,4... js function to randomly document.getElementById('charleston-cyclist-img').src = "";
+
 priorities
 - create a paypal button for the new charleston prints
 - create a signed copy, and proper sizing, for Charleston shots
@@ -18,6 +21,9 @@ hard
 - lazy load (intersection observer api) all offscreen images
   - https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/
 - go through and delete/make css better
+
+eventually 
+-update SEO when you know what you're doing
 
 completed
 - (4/24) print-info social footer is not visible

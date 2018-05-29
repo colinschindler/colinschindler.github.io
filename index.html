@@ -16,7 +16,7 @@
   <meta property="fb:app_id" content="234066190368430">
   <meta name="robots" content="index,follow,noodp">
   <meta name="googlebot" content="index,follow">
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower" rel="stylesheet">
   <link rel="icon" type="image/png" href="images/cs-favicon.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
@@ -24,10 +24,11 @@
   <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript" src="js/javascript.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 </head>
 
-<body>
+<body onload="randCyclistImg()">
   <div id="page-wrap">
 
     <section id="masthead">
@@ -54,6 +55,52 @@
     </section>
     
     <div id="content">
+
+      <section id="freelancing">
+          <h1>Photographer for Hire</h1>
+  
+          <div class="freelancing-container">
+  
+            <div id="freelancing-left">
+              
+              <div id="freelancing-categories">
+                <button id="button-cycling" onclick="buttonCycling()">Cycling Portraits</button>
+                <button id="button-portraits" onclick="buttonPortraits()">Portraits</button>
+                <button id="button-graduation" onclick="buttonGraduation()">Graduation</button>
+                <button id="button-engagement" onclick="buttonEngagement()">Engagement</button>
+                <button id="button-wedding" onclick="buttonWedding()">Wedding</button>
+              </div>
+  
+              <div id="freelancing-info">
+  
+                <p id="freelancing-description">
+                  An instagram project to showcase the cycling characters of Charleston and the bikes they ride.
+                </p>
+  
+                <p id="freelancing-price">Follow Along</p>
+  
+                <p class="hover-link"><a id="instagram-link" target="_blank" href="https://www.instagram.com/charlestoncyclists/">@charlestoncyclists</a></p>
+  
+              </div>
+  
+            </div>
+  
+            <div id="freelancing-right">
+              <img id="freelancing-image" src="images/cyclists/Frank-Kunkle.jpg"/>
+            </div>
+  
+          </div>
+  
+        </section>
+
+      <section id="random-cyclist">
+        <h1>Charleston Cyclists</h1>
+
+        <div id="random-cyclist-container">
+          <img id="cyclist-img" src="1.jpg"/>
+          <button id="random-cyclist-button" onclick="randCyclistImg()">Random Cyclist</button>
+        </div>
+      </section>
 
       <section id="print-sliders">
         <h1>Prints
