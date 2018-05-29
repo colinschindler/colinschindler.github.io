@@ -28,14 +28,13 @@
   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 </head>
 
-<body onload="randCyclistImg()">
+<body onload="randCyclistImg(); randLogo()">
   <div id="page-wrap">
 
     <section id="masthead">
       <div id="logo-container">
         <a href="index.html">
-          <!--Need to change .logo and affect the src='"images/colin_headshots/" + random number + ".jpeg"' -->
-          <img class="logo" src="images/Colin.jpg" alt="Colin Schindler logo">
+          <img id="colin-logo" class="logo" src="images/colin_headshots/transparent.png" alt="Colin Schindler logo">
           <div id="colinschindler">Colin Schindler</div>
         </a>
         <div id="motto-container">
