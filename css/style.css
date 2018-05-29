@@ -296,10 +296,6 @@ glide__bullets button {
   box-shadow: 5px 2px 20px 0 white;
 }
 
-#random-cyclist-container button:focus {
-  outline: 0;
-}
-
 #random-cyclist-button:hover {
   color:red;
   font-weight:1000;
@@ -308,6 +304,9 @@ glide__bullets button {
   box-shadow: 0 5px 20px 10px;
 }
 
+#random-cyclist-container button:focus {
+  outline: 0;
+}
 /*END Charleston Cyclists SECTION END*/
 
 /*HOMEPAGE*/
