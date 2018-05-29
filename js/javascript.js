@@ -70,8 +70,8 @@ function buttonWedding() {
 //END -- FREELANCING BUTTONS -- END
 
 function randCyclistImg() {
-  //need to update number to num of photos in /cyclists
-  var numCyclists = 4;
+
+  var numCyclists = 84; // <<<<<  NUMBER OF CYCLISTS  <<<<<<<<  ------  <<<<<<<<
   var randCyclist = Math.floor(Math.random() * numCyclists) + 1;
 
   document.getElementById("cyclist-img").src = "images/cyclists/" + randCyclist + ".jpg";
