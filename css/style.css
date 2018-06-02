@@ -320,6 +320,7 @@ glide__bullets button {
 #latest-image {
 	display: block;
   width: 96%;
+  border-radius: 5px;
 }
 
 #latest-wrap p {
@@ -336,6 +337,12 @@ glide__bullets button {
 .latest-text {
   margin:0 auto;
   width:65%;
+  font-size: 14px;
+}
+
+.latest-text:nth-child(2) {
+  font-style: italic;
+  font-size: 12px;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

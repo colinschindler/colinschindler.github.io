@@ -1,5 +1,5 @@
 Charleston Cyclists 
-- img folder of cyclists named 1,2,3,4... js function to randomly document.getElementById('charleston-cyclist-img').src = "";
+- figure out how to make images load faster. Might require site wide lazy loading.
 
 priorities
 - create a paypal button for the new charleston prints
