@@ -79,7 +79,7 @@ function buttonWedding() {
 //END -- FREELANCING BUTTONS -- END
 
 function randCyclistImg() {
-  var numCyclists = 87; // <<<<<  NUMBER OF CYCLISTS  <<<<<<<<  ------  <<<<<<<<
+  var numCyclists = 106; // <<<<<  NUMBER OF CYCLISTS  <<<<<<<<  ------  <<<<<<<<
   var randCyclist = Math.floor(Math.random() * numCyclists) + 1;
 
   document.getElementById("cyclist-img").src = "images/cyclists/" + randCyclist + ".jpg";
