@@ -28,13 +28,27 @@
   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 </head>
 
-<body onload="randCyclistImg(); randLogo()">
+<body onload="randCyclistImg()">
   <div id="page-wrap">
 
     <section id="masthead">
       <div id="logo-container">
         <a href="index.html">
           <img id="colin-logo" class="logo" src="images/colin_headshots/transparent.png" alt="Colin Schindler logo">
+
+          <script>
+            function randLogo() {
+
+              var numColins = 9; // <<<<<  NUMBER OF IMAGES in colin_headshots folder  <<<<<<<<  ------  <<<<<<<<
+              var randLogo = Math.floor(Math.random() * numColins) + 1;
+            
+              document.getElementById("colin-logo").src = "images/colin_headshots/" + randLogo + ".jpg";
+            
+            }
+
+            randLogo();
+          </script>
+          
           <div id="colinschindler">Colin Schindler</div>
         </a>
         <div id="motto-container">

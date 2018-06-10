@@ -5,15 +5,6 @@ function popupMsg(theMsg) {
 alert(theMsg);
 }
 
-function randLogo() {
-
-  var numColins = 9; // <<<<<  NUMBER OF IMAGES in colin_headshots folder  <<<<<<<<  ------  <<<<<<<<
-  var randLogo = Math.floor(Math.random() * numColins) + 1;
-
-  document.getElementById("colin-logo").src = "images/colin_headshots/" + randLogo + ".jpg";
-
-}
-
 //START -- FREELANCING BUTTONS -- START
 function buttonCycling() {
   var description = document.getElementById("freelancing-description");
