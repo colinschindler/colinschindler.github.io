@@ -146,11 +146,16 @@ a.logo {
   text-align: center;
 }
 
-glide__bullets button {
-  padding: 40px;
+.glide__bullets button {
+  padding: 17px;
 }
 
 .glide__slides img {
+  max-width: 100%;
+  max-height: 450px;
+}
+
+.glide__slides .lazy {
   max-width: 100%;
   max-height: 450px;
 }
