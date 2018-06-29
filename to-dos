@@ -1,8 +1,7 @@
 Charleston Cyclists 
-- figure out how to make images load faster. Might require site wide lazy loading.
+-
 
 priorities
-- create a paypal button for the new charleston prints
 - create a signed copy, and proper sizing, for Charleston shots
 
 simple
@@ -11,15 +10,11 @@ simple
 - update seo info
 - fix the big dipper blacked out shitty-looking area
 - create more interesting descriptions for all shots, be a poet
-- create a bunch of different colin headshot and make a 
-  js function to randomly select on on load
 - in sw blog, add the og img as a background for each post rather than just text
 
 hard
 - add the state icon where us landscape photo was taken 
 - make clicking prints enlarge them to fullscreen
-- lazy load (intersection observer api) all offscreen images
-  - https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/
 - go through and delete/make css better
 
 eventually 
@@ -27,3 +22,8 @@ eventually
 
 completed
 - (4/24) print-info social footer is not visible
+- (6/10) lazy load (intersection observer api) all offscreen images
+  - https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/
+- (6/01) create a bunch of different colin headshot and make a 
+  js function to randomly select on on load
+- (5/15) create a paypal button for the new charleston prints
