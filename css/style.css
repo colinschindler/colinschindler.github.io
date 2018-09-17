@@ -299,14 +299,26 @@ a.logo {
   border-color: gold;
   border-radius: 3px 50px 3px 50px;
   box-shadow: 5px 2px 20px 0 white;
+  animation-name: buttonSize;
+  animation-duration: 4s;
 }
 
 #random-cyclist-button:hover {
-  color:red;
-  font-weight:1000;
-  background-color: white;
-  border-radius: 50px 3px 50px 3px;
-  box-shadow: 0 5px 20px 10px;
+  
+  animation-name: buttonGrow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes buttonGrow {
+  50% {
+    color:red;
+    font-weight:1000;
+    background-color: white;
+    border-radius: 50px 3px 50px 3px;
+    box-shadow: 0 5px 20px 10px;
+    transform: scale(1.1);
+  }
 }
 
 #random-cyclist-container button:focus {
