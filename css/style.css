@@ -843,6 +843,89 @@ img:hover {
   z-index: 0;
 }
 
+/*SouthWest Blog Flexbox*/
+  .southwest-blog-container {
+    display:flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+  }
+
+  .southwest-blog-post{
+    position:relative;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 25px;
+    background-color: black;
+  }
+
+  .southwest-blog-post img {
+    border-radius: 25px;
+  }
+
+  .southwest-blog-post:hover {
+    animation-name: postPop;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; 
+  }
+
+  .southwest-blog-post:hover p {
+    animation-name: textPop;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+
+  .southwest-blog-post:hover img {
+    animation-name: imgFade;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  .southwest-blog-post a {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .southwest-blog-post p:nth-child(2) {
+    position: absolute;
+    top: 5%;
+    color:white;
+  }
+
+  .southwest-blog-post p:nth-child(3) {
+    position: absolute;
+    bottom: 20%;
+    color:white;
+  }
+
+  @keyframes postPop {
+    100% {
+      transform:scale(1.1);
+    }
+  }
+
+  @keyframes textPop {
+    100% {
+      transform:scale(1.4);
+      font-weight: bolder;
+      letter-spacing: 1px;
+      text-shadow:  2px 3px 25px white;
+    }
+  }
+
+  @keyframes imgFade {
+    100% {
+      opacity: .3;
+    }
+  }
+
+/*END SouthWest Blog Flexbox END*/
+
 /*Specific blog posts*/
 
 /*From 2/14/17 boy girl beauty world*/
