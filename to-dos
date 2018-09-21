@@ -17,8 +17,7 @@ simple
 - finish southwest blog, make an ending summary thing.
 
 ****
-- in sw blog, add the og img as a background for each post rather than just text
-  -maybe do a banner image and a nice summary of the trip above posts
+- in sw blog, maybe do a banner image and a nice summary of the trip above posts
 *****
 
 hard
@@ -30,9 +29,10 @@ eventually
 -update SEO when you know what you're doing
 
 completed
-- (4/24) print-info social footer is not visible
+- (9/20) in sw blog, add the og img as a background for each post rather than just text
 - (6/10) lazy load (intersection observer api) all offscreen images
   - https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/
 - (6/01) create a bunch of different colin headshot and make a 
   js function to randomly select on on load
 - (5/15) create a paypal button for the new charleston prints
+- (4/24) print-info social footer is not visible
