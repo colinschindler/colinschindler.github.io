@@ -1,0 +1,16 @@
+
+#temp {
+ position:relative;
+ display: flex;
+ background-color: yellow;
+ color:blue;
+ margin: 100px auto;
+ height: 100px;
+ width: 100px;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+ border: solid 2px;
+ border-color: blue;
+ border-radius: 25px;
+}
