@@ -1,1 +1,1 @@
-Personal website including a travel blog, landscape photography prints, and various experiments with code.
+Personal website. A place to share what I find interesting.
