@@ -9,18 +9,23 @@
   padding: 20px 20px 0;
 }
 
-#temp {
- position:relative;
- display: flex;
- background-color: yellow;
- color:blue;
- margin: 100px auto;
- height: 100px;
- width: 100px;
- justify-content:center;
- align-items:center;
- text-align:center;
- border: solid 2px;
- border-color: blue;
- border-radius: 25px;
+#contentwrap {
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+
+.content-block {
+  position:relative;
+  margin: 25px;
+  padding: 5px;
+  width: 30%;
+  border-radius: 25px;
+}
+
+#tao-enough {
+  text-align: center;
+  font-size: 18px;
 }
