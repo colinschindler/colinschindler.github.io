@@ -12,18 +12,22 @@
 
 #contentwrap {
   width: 100%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: space-between;
   flex-wrap: wrap;
 }
 
 .content-block {
-  position:relative;
+  position: relative;
   margin: 25px;
   padding: 5px;
-  width: 30%;
+  width: 100%;
   border-radius: 25px;
+}
+
+#neruda-tonight {
+  text-align: center;
 }
 
 #tao-enough {
