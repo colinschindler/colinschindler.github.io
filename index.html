@@ -15,83 +15,23 @@
 </head>
 
 <body>
-  <div id="pagewrap">
-    <div id="contentwrap">
-      
-      <!--
-      
-      <div class="content-block" id="">
-        <hr>
-      </div>
+  
+  <div id="generate">
 
-      -->
-      
-      <div class="content-block" id="return-to-earth">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/oL9eo49yl30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <a href="https://youtu.be/ee2DKhRy35I" target="_blank"><p>Rent/Buy Full Video</p></a>
-        <hr>
-      </div>
-      
-      <div class="content-block" id="matrix">
-        <p>"You don't have to know the path to walk the path."</p>
-        <p style="text-align: right; font-style: italic;">-- Morpheus, The Matrix</p>
+    <button id="content-generator-button" type="button" onclick="randContent()">Generate Content</button><br />
+    <iframe id="content-generator" src=""></iframe>
 
-        <hr>
-      </div>
+    <script>
+      function randContent() {
+
+        var numContent = 5; // <<<<<  NUMBER OF CONTENT in divs folder  <<<<<<<<  ------  <<<<<<<<
+        var randContent = Math.floor(Math.random() * numContent) + 1;
+
+        document.getElementById('content-generator').src = "divs/" + randContent + ".html";
+      }
       
-      <div class="content-block" id="daytripper">
-        <a href="https://www.goodreads.com/book/show/8477057-daytripper?ac=1&from_search=true&qid=z499oQbUVr&rank=1" target="_blank">
-           <img src="images/daytripper.jpg" alt="Daytripper"/></a>
-        <p>“Only when you accept that one day you'll die can you let go, and make the best out of life. And that's the big secret. That's the miracle.”</p>
-        <hr>
-      </div>
-      
-      <div class="content-block" id="neruda-tonight">
-        <h1>Tonight I Can Write</h1><br /><br />
-        <p>
-          Tonight I can write the saddest lines.<br /><br />
-        Write, for example, "The night is starry<br />
-          and the stars are blue and shiver in the distance."<br /><br />
-        The night wind revolves in the sky and sings.<br /><br />
-        Tonight I can write the saddest lines.<br />
-          I loved her, and sometimes she loved me too.<br /><br />
-        Through nights like this one I held her in my arms.<br />
-          I kissed her again and again under the endless sky.<br /><br />
-        She loved me, sometimes I loved her too.<br />
-          How could one not have loved her great still eyes.<br /><br />
-        Tonight I can write the saddest lines.<br />
-          To think that I do not have her. To feel that I have lost her.<br /><br />
-        To hear the immense night, still more immese without her.<br />
-          And the verse falls to the soul like dew to the pasture.<br /><br />
-        What does it matter that my love could not keep her.<br />
-          The night is starry and she is not with me.<br /><br />
-        This is all. In the distance someone is singing. In the distance.<br />
-          My soul is not satisfied that it has lost her.<br /><br />
-        My sight tries to find her as though to bring her closer.<br />
-          My heart looks for her, and she is not with me.<br /><br />
-        The same night whitening the same trees.<br />
-          We, of that time, are no longer the same.<br /><br />
-        I no longer love her, that's certain, but maybe I love her.<br />
-          Love is so short, forgetting is so long.<br /><br />
-        Because through nights like this one I held her in my arms<br />
-          my soul is not satisfied that it has lost her.<br /><br />
-        Though this be the last pain that she makes me suffer<br />
-          and these the last verses that I write for her.<br /><br /></p>
-        <p style="text-align: right; font-style: italic;">-- Pablo Neruda</p>
-        </p><br />
-        <hr>
-      </div>
-      
-      <div class="content-block" id="tao-enough">
-        <p>When the Tao is present in the universe, <br />
-        The horses haul manure. <br />
-        When the Tao is absent from the universe, <br />
-        War horses are bred outside the city. <br /><br />
-        There is no greater sin than craving, <br />
-        No greater misfortune than wanting something for ourselves. <br />
-          Therefore those who know that enough is enough will always have enough.</p>
-      </div>
-      
-    </div>
-  </div>
+    </script>
+
+  </div> 
+
 </body>
