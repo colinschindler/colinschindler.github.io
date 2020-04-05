@@ -12,26 +12,12 @@
   <meta name="googlebot" content="index,follow">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
-  
   <div id="generate">
-
     <button id="content-generator-button" type="button" onclick="randContent()">Generate Content</button><br />
     <iframe id="content-generator" src=""></iframe>
-
-    <script>
-      function randContent() {
-
-        var numContent = 11; // <<<<<  NUMBER OF CONTENT in divs folder  <<<<<<<<  ------  <<<<<<<<
-        var randContent = Math.floor(Math.random() * numContent) + 1;
-
-        document.getElementById('content-generator').src = "divs/" + randContent + ".html";
-      }
-      
-    </script>
-
-  </div> 
-
+  </div>
 </body>
