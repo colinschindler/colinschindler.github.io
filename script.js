@@ -8,7 +8,7 @@ function shuffle(a) {
     }
 }
       
-var numContent = 11; // Update this number with amount of content in divs folder
+var numContent = 13; // Update this number with amount of content in divs folder
 var contentArr = [];
 
 for(i=1;i<numContent+1;i++) {
