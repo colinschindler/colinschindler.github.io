@@ -1,1 +1,1 @@
-Personal website. A place to share what I find interesting.
+Kristen's coaching site.
