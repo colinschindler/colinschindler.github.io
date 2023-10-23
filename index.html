@@ -6,33 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta name="description" content="Personal coaching isn't just for elite athletes. It's for anyone who wants to improve their running, injury prevention, and overall fitness level.">
-  <title>Kristen Schindler Coaching</title>
+  <title>Integrated Stride Coaching</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
   <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
-  Hello World!<br>
-  <div><div id="paypal-button-container-P-4XX80949EW1355112MU3AREI"></div>
-  <script src="https://www.paypal.com/sdk/js?client-id=AVMQbFQeL7YEjWjFqjaWb1q6P0V1RbHEzaXHZAU3JlXKwsnE9xFZXUTPbs0iNngmkef3qOEzsw7qGX2i&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-  <script>
-    paypal.Buttons({
-        style: {
-            shape: 'pill',
-            color: 'white',
-            layout: 'vertical',
-            label: 'subscribe'
-        },
-        createSubscription: function(data, actions) {
-          return actions.subscription.create({
-            /* Creates the subscription */
-            plan_id: 'P-4XX80949EW1355112MU3AREI'
-          });
-        },
-        onApprove: function(data, actions) {
-          alert(data.subscriptionID); // You can add optional success message for the subscriber here
-        }
-    }).render('#paypal-button-container-P-4XX80949EW1355112MU3AREI'); // Renders the PayPal button
-  </script></div>
+  <div id="header">
+    <p>Integrated Stride Coaching</p>
+    <div id="navBar"></div>
+  </div>
+  <div id="main"></div>
+  <div id="footer"></div>
 </body>
